@@ -1,1 +1,23 @@
-#section1 {background-color:#C0C0C0}
+*{box-sizing: border-box;font-family:sans-serif;font-style: italic;}
+body {width: 78%; margin-right: 11% ;margin-left:11%;margin-top: 30px;;}
+section {float:left;height:400px; padding: 30px;position: relative; background-color: #C0C0C0; border: 3px solid black;}
+#maintitle{padding-bottom: 40px; font-size: 28px}
+#title1{background-color: #FFA07A; position: absolute;top:0; right:0;border:1px solid black;padding: 2px}
+#title2{background-color: #00FFFF; position: absolute;top:0; right:0;border:1px solid black;padding: 2px}
+#title3{background-color: #E6E6FA; position: absolute;top:0; right:0;border:1px solid black;padding: 2px}
+
+@media (min-width: 992px) {
+	#section1 {width:32%; margin-right: 2%}
+	#section2{width: 32%;margin-right: 2%}
+	#section3{width: 32%} 
+} 
+@media (min-width:768px ) and (max-width: 991px) {
+	#section1{width:49%;margin-right:2%}
+	#section2{width:49%;}
+	#section3{width:100%;margin-top: 2%}
+}
+@media(max-width:767px){
+	#section1{width:100%;}
+	#section2{width:100%;margin-top: 2%}
+	#section3{width:100%;margin-top: 2%}
+}
